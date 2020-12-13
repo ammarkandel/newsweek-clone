@@ -1,0 +1,73 @@
+.navbar {
+  background-color: red;
+}
+
+#burger {
+  outline: none; 
+  box-shadow: none;
+  border: none;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(190, 190, 192, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-icons .subscribe-btn {
+  font-size: 12px;
+  color: black;
+  background-color: yellow;
+  padding: 6px;
+  border-radius: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0 5px 0 10px;
+}
+
+.nav-icons .login-btn {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+.nav-icons .fa-user {
+  color: rgb(190, 190, 190);
+  font-size: 22px;
+}
+
+.col-2 .local-info {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.col-2 .local-time {
+  color: white;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .nav-icons .login-btn {
+    font-size: 17px;
+  }
+
+  .nav-icons .subscribe-btn {
+    font-size: 15px;
+  }
+}
+
+/* End Style Navbar */
+
+.card .card-body h5 {
+  color: rgb(165, 162, 162);
+  font-weight: 800;
+  padding-top: 10px;
+}
+
+.card .card-body h6 {
+  margin-top: -20px;
+  background-color: white;
+  height: 20px;
+  width: 80px;
+  color: red;
+}
