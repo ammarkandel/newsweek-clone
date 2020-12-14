@@ -21,6 +21,12 @@ Clone of newsweek.com home page. [thenextweb](https://www.newsweek.com/)
 - Twitter: [@AmmarQandel](https://twitter.com/AmmarQandel)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ammar-kandel-7b4100193/)
 
+👤 **Manuel Aldaraca**
+
+- Github: [@vicmaburrito](https://github.com/vicmaburrito)
+- Twitter: [@ManuelAldaraca](https://twitter.com/ManuelAldaraca) 
+- LinkedIn: https://www.linkedin.com/in/manuel-aldaraca 
+
 #### Contributions, issues and feature requests are welcome! Start by:
 
 - Push your branch up to your forked repository
