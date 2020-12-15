@@ -259,6 +259,136 @@
   font-weight: 800;
 }
 
+/* Debate styling */
+.top-stories-header{
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    color: rgba(3,3,3,.4);}
+.debate {
+  margin-bottom: 30px;
+}
+
+.top-debate {
+  border-top: 4px solid rgb(217, 217, 217);
+  padding-top: 10px;
+}
+
+.mugshot-wrapper {
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+}
+
+.mugshot {
+  max-width: 100%;
+}
+
+.debate-stand {
+  color: black;
+  font: bold 16px/19px "Roboto Condensed",sans-serif;
+}
+
+.debater {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.debater span {
+  font-weight: 400;
+}
+
+.debate-info-top {
+  padding-left: 15px;
+}
+
+.vs-img {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 32px;
+  z-index: 3;
+}
+
+.versus {
+  position: relative;
+}
+
+.versus::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px)
+}
+
+.versus::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%
+}
+
+.bottom-debate {
+  border-bottom: 4px solid rgb(217, 217, 217);
+  padding-bottom: 10px;
+}
+
+.debate-info-bottom {
+  padding-right: 0px;
+}
+
+/*opinion style*/
+
+.opinions {
+  margin-bottom: 30px;
+}
+
+.opinion {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.opinion:nth-child(2) {
+  padding-top: 0;
+  border: none;
+}
+
+.opinion-info {
+  padding-left: 15px;
+}
+
+.opinion-stand {
+  font: bold 16px/19px "Roboto Condensed",sans-serif;
+    color: black;
+}
+
+.opinion-author {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.right-column .featured-story {
+  max-width: 336px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Start Style The editor-pick */
 
 .editor-pick-card .editor-pick-img {
