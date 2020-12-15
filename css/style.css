@@ -58,30 +58,174 @@
 
 /* End Style Navbar */
 
-.card .card-body h5 {
-  color: rgb(165, 162, 162);
+.main-story .top-featured .featured-story,
+.main-story .top-featured .top-story{
+  margin-top: 20px;
+}
+
+.main-story .featured-story h5,
+.main-story .top-story h5 {
+  font-size: 16px;
   font-weight: 800;
-  padding-top: 10px;
+  color: gray;
 }
 
-.card .card-body h6 {
-  margin-top: -20px;
-  background-color: white;
-  height: 20px;
-  width: 80px;
-  color: red;
+.main-story .featured-story .featured-story-img,
+.main-story .top-story .top-story-img{
+  background-image: url("../images/COVID-19.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
 
-.card .card-img-overlay {
-  margin-top: 140px;
-  padding:0;
-}
-
-.card .card-img-overlay a {
-  background-color: white;
-  width: 80px;
+.featured-story-img a,
+.top-story-img a{
   text-decoration: none;
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 140px;
   color: red;
-  font-size: 17px;
   font-weight: 800;
+  text-align: center;
+}
+
+.main-story .featured-story h4,
+.main-story .top-story h4{
+  font-weight: 800;
+  font-size: 19px;
+  margin: 10px 0 10px 0;
+}
+
+.main-story .featured-story h6,
+.main-story .top-story h6{
+  font-size: 12px;
+}
+
+.main-story .top-featured .featured-story-card {
+  margin-top: 25px;
+}
+
+.sponsored {
+  margin-top: 80px;
+}
+
+.sponsored .sponsored-img{
+  height: 300px;
+  background-image: url("https://d.newsweek.com/en/full/1661984/university-findlay.jpg?w=500&h=333&f=a0e8c1cc93d0a2e177f8e5757443e339");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sponsored span {
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 200px;
+  color: rgb(0, 131, 238);
+  font-weight: 800;
+  text-align: center;
+}
+
+.sponsored h4 {
+  font-size: 19px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.sponsored h6 {
+  font-size: 12px;
+}
+
+.sponsored h4,
+.sponsored h6{
+  margin-left: 20px;
+}
+
+.sponsored .sponsored-card {
+  padding: 10px;
+  border: 1px solid rgba(184, 181, 181, 0.4);
+  margin-top: 25px;
+}
+
+.more-stories {
+  margin: 40px 10px 10px 10px;
+}
+
+.more-stories .more-stories-title {
+  font-size: 16px;
+  color: gray;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+.more-stories img {
+  margin-right: 15px;
+}
+
+.more-stories .more-story h6 {
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.more-stories .more-story h6:hover {
+  text-decoration: underline red;
+}
+
+.more-stories p {
+  font-size: 14px;
+}
+
+.more-story {
+  padding-top: 10px;
+  border-top: 1px solid rgba(184, 184, 184, 0.8);
+}
+
+/* Start Style Myturn Section */
+
+.myturn {
+  margin-top: 20px;
+}
+
+.myturn h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+  margin: 12px;
+}
+
+.myturn .myturn-img {
+  background-image: url("../images/COVID-19.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.myturn p {
+  color: rgb(109, 107, 107);
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+/* Start Style in THE MAGAZINE */
+
+.in-the-magazine {
+  margin-top: 50px;
+}
+
+.in-the-magazine .icon{
+  background-color: red;
+  background-image: url("https://g.newsweek.com/www/images/logo-n1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+}
+
+.in-the-magazine h6 {
+  font-weight: 800;
+}
+
+.in-the-magazine .best-moves .move-img {
+  height: 480px;
+  background-image: url("https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=360&h=480&q=90&f=55ffdbf13b7f4c2a334c3f485f76532c");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
