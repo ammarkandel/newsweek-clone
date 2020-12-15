@@ -224,39 +224,10 @@
 }
 
 .in-the-magazine .best-moves .move-img {
-  height: 400px;
+  height: 480px;
   background-image: url("https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=360&h=480&q=90&f=55ffdbf13b7f4c2a334c3f485f76532c");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.in-the-magazine .best-moves .issue {
-  text-decoration: none;
-  color: red;
-  font-weight: 800;
-}
-
-.in-the-magazine .best-moves .features {
-  text-decoration: none;
-  color: black;
-  font-weight: 800;
-}
-
-.in-the-magazine .magazine-article h6 {
-  background-color: red;
-  padding: 5px;
-  color: white;
-  font-weight: 800;
-}
-
-.in-the-magazine .magazine-article h5 {
-  font-weight: 800;
-}
-
-.in-the-magazine .magazine-article h4 {
-  font-size: 14px;
-  color: black;
-  font-weight: 800;
 }
 
 /* Debate styling */
@@ -389,49 +360,203 @@
   margin-left: auto;
 }
 
-/* Start Style The editor-pick */
-
-.editor-pick-card .editor-pick-img {
-  background-image: url("https://d.newsweek.com/en/full/1685820/alex-azar-speaks-white-house-briefing.jpg?w=397&h=295&f=06b270a71d1cb549fc60de3b07e54959");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
+/* suscribe section */
+.subscribe-block {
+  padding-top: 40px;
+  border-top: 1px solid rgb(217, 217, 217);
+  padding-bottom: 40px;
+  margin: 0;
 }
 
-.editor-pick-img a{
-  text-decoration: none;
-  background-color: rgb(228, 217, 217, 0.9);
-  width: 140px;
-  color: red;
-  font-weight: 800;
-  text-align: center;
-}
-
-.editor-pick-card h5 {
+.subscribe-title {
+  color: #f72210;
+  font-weight: 700;
   font-size: 16px;
-  font-weight: 800;
-  color: gray;
 }
 
-.editor-pick-card h4 {
-  font-weight: 800;
-  font-size: 19px;
-  margin: 10px 0 10px 0;
+.subscribe-article {
+  background-color: #f4f5f6;
+  padding: 30px;
 }
 
-.editor-pick-card h6 {
+.subscribe-img {
+  position: relative;
+  padding-right: 90px;
+}
+
+.previous-subscribe-img {
+  position: relative;
+}
+
+.current-subscribe-img {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.subscribe-info {
+  padding-left: 30px;
+}
+
+.subscribe-header {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 30px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.subscribe-text {
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 20px;
+  
+}
+
+.subscribe-btn-2 {
+  background-color: #f72310;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  border: none;
+  padding: 10px 10px 10px 12px;
+  line-height: 18px;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+
+.newsletter-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  width: 48%;
+}
+
+.newsletter-info {
+  padding: 30px;
+  border: 1px solid rgb(235, 235, 235);
+  width: 52%;
+}
+
+.form-text{
+  color: #555;
+  font-size: 15px;
+  font-family: "Helvetica",sans-serf;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+  padding: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe-article {
+      text-align: center;
+  }
+
+  .subscribe-img {
+      padding-bottom: 30px;
+  }
+
+  .newsletter-article {
+      flex-direction: column;
+  }
+
+  .newsletter-img {
+   height: 170px;
+   width: 100%;
+  }
+
+  .newsletter-info {
+   width: 100%;
+   text-align: center;
+  }
+
+  .subscribe-info {
+   padding: 0;
+  }
+  .form-text{
+   align-items: center;
+   display: flex;
+  }
+}
+
+/* footer style */
+.page-footer {
+  padding: 30px;
+  border-top: 1px solid rgb(217, 217, 217);
+  color: #666;
+}
+
+.top-page-footer {
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.footer-logo {
+  fill: #f72210;
+  height: 36px;
+  width: 236px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  color: #666;
   font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Start Style News Card */
+.social {
+  margin-bottom: 12px;
+  list-style: none; 
+  padding: 0 ;
+  font-size: 26px ;
+}
 
-.news-articles .news-card-3 p {
-  font-weight: 800;
+.social ul li{
+  margin: 10px;
+  color: #666;
+}
+
+.grayiconcolor{
+  color: #666;
+  margin-right: 15px ;
+  font-size: 22px;
+}
+
+.footer-links-wrapper {
+  padding-top: 6px;
+}
+
+.footer-links {
+  font-size: 15px;
+  line-height: 15px;
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.news-articles h4 {
-  margin-left: 40px;
-  font-weight: 800;
-  color: red;
+.footer-links p {
+  font-weight: 700;
+  margin-right: 15px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.footer-links ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer-links ul li {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid rgb(217, 217, 217);
+  white-space: nowrap;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  list-style: none;
+}
+
+.page-footer {
+  padding: 15px;
 }
