@@ -224,8 +224,84 @@
 }
 
 .in-the-magazine .best-moves .move-img {
-  height: 480px;
+  height: 400px;
   background-image: url("https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=360&h=480&q=90&f=55ffdbf13b7f4c2a334c3f485f76532c");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.in-the-magazine .best-moves .issue {
+  text-decoration: none;
+  color: red;
+  font-weight: 800;
+}
+
+.in-the-magazine .best-moves .features {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.in-the-magazine .magazine-article h6 {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  font-weight: 800;
+}
+
+.in-the-magazine .magazine-article h5 {
+  font-weight: 800;
+}
+
+.in-the-magazine .magazine-article h4 {
+  font-size: 14px;
+  color: black;
+  font-weight: 800;
+}
+
+/* Start Style The editor-pick */
+
+.editor-pick-card .editor-pick-img {
+  background-image: url("https://d.newsweek.com/en/full/1685820/alex-azar-speaks-white-house-briefing.jpg?w=397&h=295&f=06b270a71d1cb549fc60de3b07e54959");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.editor-pick-img a{
+  text-decoration: none;
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 140px;
+  color: red;
+  font-weight: 800;
+  text-align: center;
+}
+
+.editor-pick-card h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+}
+
+.editor-pick-card h4 {
+  font-weight: 800;
+  font-size: 19px;
+  margin: 10px 0 10px 0;
+}
+
+.editor-pick-card h6 {
+  font-size: 12px;
+}
+
+/* Start Style News Card */
+
+.news-articles .news-card-3 p {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.news-articles h4 {
+  margin-left: 40px;
+  font-weight: 800;
+  color: red;
 }
