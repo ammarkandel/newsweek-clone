@@ -3,7 +3,7 @@
 }
 
 #burger {
-  outline: none; 
+  outline: none;
   box-shadow: none;
   border: none;
 }
@@ -91,6 +91,16 @@
   text-align: center;
 }
 
+.featured-story-img a,
+.top-story-img a {
+  text-decoration: none;
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 140px;
+  color: red;
+  font-weight: 800;
+  text-align: center;
+}
+
 .sections-links a:hover,
 .sections-links-2 a:hover {
   color: red;
@@ -99,7 +109,7 @@
 /* End Sections Links */
 
 .main-story .top-featured .featured-story,
-.main-story .top-featured .top-story{
+.main-story .top-featured .top-story {
   margin-top: 20px;
 }
 
@@ -111,32 +121,22 @@
 }
 
 .main-story .featured-story .featured-story-img,
-.main-story .top-story .top-story-img{
+.main-story .top-story .top-story-img {
   background-image: url("../images/COVID-19.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
 }
 
-.featured-story-img a,
-.top-story-img a{
-  text-decoration: none;
-  background-color: rgb(228, 217, 217, 0.9);
-  width: 140px;
-  color: red;
-  font-weight: 800;
-  text-align: center;
-}
-
 .main-story .featured-story h4,
-.main-story .top-story h4{
+.main-story .top-story h4 {
   font-weight: 800;
   font-size: 19px;
   margin: 10px 0 10px 0;
 }
 
 .main-story .featured-story h6,
-.main-story .top-story h6{
+.main-story .top-story h6 {
   font-size: 12px;
 }
 
@@ -148,7 +148,7 @@
   margin-top: 80px;
 }
 
-.sponsored .sponsored-img{
+.sponsored .sponsored-img {
   height: 300px;
   background-image: url("https://d.newsweek.com/en/full/1661984/university-findlay.jpg?w=500&h=333&f=a0e8c1cc93d0a2e177f8e5757443e339");
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@
 }
 
 .sponsored h4,
-.sponsored h6{
+.sponsored h6 {
   margin-left: 20px;
 }
 
@@ -250,7 +250,7 @@
   margin-top: 50px;
 }
 
-.in-the-magazine .icon{
+.in-the-magazine .icon {
   background-color: red;
   background-image: url("https://g.newsweek.com/www/images/logo-n1.svg");
   background-repeat: no-repeat;
@@ -308,7 +308,7 @@
   height: 300px;
 }
 
-.editor-pick-img a{
+.editor-pick-img a {
   text-decoration: none;
   background-color: rgb(228, 217, 217, 0.9);
   width: 140px;
@@ -347,11 +347,14 @@
 }
 
 /* Debate styling */
-.top-stories-header{
+
+.top-stories-header {
   font: bold 16px/16px "Roboto Condensed",sans-serif;
-    text-transform: uppercase;
-    padding-bottom: 11px;
-    color: rgba(3,3,3,.4);}
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3,3,3,.4);
+  }
+
 .debate {
   margin-bottom: 30px;
 }
@@ -553,7 +556,7 @@
   width: 52%;
 }
 
-.form-text{
+.form-text {
   color: #555;
   font-size: 15px;
   font-family: "Helvetica",sans-serf;
@@ -629,12 +632,12 @@
   font-size: 26px ;
 }
 
-.social ul li{
+.social ul li {
   margin: 10px;
   color: #666;
 }
 
-.grayiconcolor{
+.grayiconcolor {
   color: #666;
   margin-right: 15px ;
   font-size: 22px;
