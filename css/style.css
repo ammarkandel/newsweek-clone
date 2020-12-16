@@ -150,6 +150,13 @@
   margin-top: 20px;
 }
 
+.myturn h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+  margin: 12px;
+}
+
 .main-story .featured-story h5,
 .main-story .top-story h5 {
   font-size: 16px;
@@ -165,18 +172,19 @@
   height: 300px;
 }
 
+.sponsored h6 {
+  font-size: 12px;
+}
+
+.in-the-magazine h6 {
+  font-weight: 800;
+}
+
 .in-the-magazine .magazine-article h6 {
   background-color: red;
   padding: 5px;
   color: white;
   font-weight: 800;
-}
-
-.myturn h5 {
-  font-size: 16px;
-  font-weight: 800;
-  color: gray;
-  margin: 12px;
 }
 
 .sponsored h4 {
@@ -218,10 +226,6 @@
   color: rgb(0, 131, 238);
   font-weight: 800;
   text-align: center;
-}
-
-.sponsored h6 {
-  font-size: 12px;
 }
 
 .sponsored h4,
@@ -303,10 +307,6 @@
   width: 25px;
 }
 
-.in-the-magazine h6 {
-  font-weight: 800;
-}
-
 .in-the-magazine .best-moves .move-img {
   height: 400px;
   background-image: url("https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=360&h=480&q=90&f=55ffdbf13b7f4c2a334c3f485f76532c");
@@ -347,6 +347,13 @@
 
 /* Start Style Articles */
 
+.footer-links p {
+  font-weight: 700;
+  margin-right: 15px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
 .news-articles .news-card-3 p {
   font-weight: 800;
   font-size: 14px;
@@ -386,11 +393,10 @@
 }
 
 .debater {
-  color: #555555;
+  color: #555;
   font-size: 14px;
   font-weight: 700;
 }
-
 
 .debater span {
   font-weight: 400;
@@ -424,7 +430,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: calc(50% - 2px)
+  top: calc(50% - 2px);
 }
 
 .versus::after {
@@ -435,7 +441,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%
+  top: 50%;
 }
 
 .bottom-debate {
@@ -444,10 +450,10 @@
 }
 
 .debate-info-bottom {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
-/*opinion style*/
+/* opinion style */
 
 .opinions {
   margin-bottom: 30px;
@@ -469,7 +475,7 @@
 }
 
 .opinion-stand {
-  font: bold 16px/19px "Roboto Condensed",sans-serif;
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
   color: black;
 }
 
@@ -480,6 +486,7 @@
 }
 
 /* suscribe section */
+
 .subscribe-block {
   padding-top: 40px;
   border-top: 1px solid rgb(217, 217, 217);
@@ -523,7 +530,7 @@
   font-weight: 600;
   margin-bottom: 15px;
   padding: 30px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .subscribe-text {
@@ -557,7 +564,6 @@
 .form-text {
   color: #555;
   font-size: 15px;
-  font-family: "Helvetica",sans-serf;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
@@ -591,7 +597,7 @@
     padding: 0;
   }
 
-  .form-text{
+  .form-text {
     align-items: center;
     display: flex;
     margin: 0%;
@@ -603,6 +609,7 @@
   padding: 30px;
   border-top: 1px solid rgb(217, 217, 217);
   color: #666;
+  padding: 15px;
 }
 
 .top-page-footer {
@@ -627,7 +634,7 @@
 
 .social {
   margin-bottom: 12px;
-  list-style: none; 
+  list-style: none;
   padding: 0;
   font-size: 26px;
 }
@@ -648,17 +655,9 @@
 }
 
 .footer-links {
-  font-size: 15px;
   line-height: 15px;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-links p {
-  font-weight: 700;
-  margin-right: 15px;
-  margin-top: 6px;
-  margin-bottom: 6px;
 }
 
 .footer-links ul {
@@ -674,10 +673,6 @@
   margin-top: 6px;
   margin-bottom: 6px;
   list-style: none;
-}
-
-.page-footer {
-  padding: 15px;
 }
 
 /* Style Sign Card */
@@ -736,6 +731,5 @@
     font-size: 19px;
   }
 }
-
 
 /* End Style Sign Card */
