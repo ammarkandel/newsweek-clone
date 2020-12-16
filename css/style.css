@@ -58,6 +58,46 @@
 
 /* End Style Navbar */
 
+/* Start Section Links */
+
+.sections-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  border-right: 1px solid rgba(167, 165, 165, 0.8);
+  padding-right: 20px;
+  text-align: center;
+}
+
+.sections-links {
+  margin-top: 20px;
+}
+
+.sections-links-2 {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(172, 171, 171, 0.8);
+}
+
+.sections-links-2 a {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.sections-links-2 .links-2 {
+  color: gray;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.sections-links a:hover,
+.sections-links-2 a:hover {
+  color: red;
+}
+
+/* End Sections Links */
+
 .main-story .top-featured .featured-story,
 .main-story .top-featured .top-story{
   margin-top: 20px;
