@@ -172,6 +172,11 @@
   height: 300px;
 }
 
+.sponsored h4,
+.sponsored h6 {
+  margin-left: 20px;
+}
+
 .sponsored h6 {
   font-size: 12px;
 }
@@ -226,11 +231,6 @@
   color: rgb(0, 131, 238);
   font-weight: 800;
   text-align: center;
-}
-
-.sponsored h4,
-.sponsored h6 {
-  margin-left: 20px;
 }
 
 .sponsored .sponsored-card {
@@ -609,7 +609,6 @@
   padding: 30px;
   border-top: 1px solid rgb(217, 217, 217);
   color: #666;
-  padding: 15px;
 }
 
 .top-page-footer {
