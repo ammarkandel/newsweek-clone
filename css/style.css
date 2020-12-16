@@ -676,13 +676,13 @@
 
 /* Style Sign Card */
 
-#free-signup-card {
+.sponsored .free-signup-card {
   background-color: rgba(180, 176, 176, 0.3);
   margin-top: 20px;
   padding: 30px;
 }
 
-#free-signup-card span {
+.sponsored .free-signup-card span {
   background-color: red;
   background-image: url("https://g.newsweek.com/www/images/logo-n1.svg");
   background-repeat: no-repeat;
@@ -692,18 +692,18 @@
   margin-top: 5px;
 }
 
-#free-signup-card h6 {
+.sponsored .free-signup-card h6 {
   font-size: 17px;
   font-weight: 800;
 }
 
-#free-signup-card input {
+.sponsored .free-signup-card input {
   outline: none;
   border: 1px solid rgba(156, 156, 156, 0.8);
   padding: 3px;
 }
 
-#free-signup-card a {
+.sponsored .free-signup-card a {
   text-decoration: none;
   font-weight: 800;
   background-color: red;
@@ -714,19 +714,19 @@
 }
 
 @media (min-width: 768px) {
-  #free-signup-card span {
+  .sponsored .free-signup-card span {
     width: 60px;
     height: 30px;
   }
 }
 
 @media (min-width: 992px) {
-  #free-signup-card span {
+  .sponsored .free-signup-card span {
     height: 45px;
     width: 70px;
   }
 
-  #free-signup-card h6 {
+  .sponsored .free-signup-card h6 {
     font-size: 19px;
   }
 }
