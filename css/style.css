@@ -58,6 +58,46 @@
 
 /* End Style Navbar */
 
+/* Start Section Links */
+
+.sections-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  border-right: 1px solid rgba(167, 165, 165, 0.8);
+  padding-right: 20px;
+  text-align: center;
+}
+
+.sections-links {
+  margin-top: 20px;
+}
+
+.sections-links-2 {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(172, 171, 171, 0.8);
+}
+
+.sections-links-2 a {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.sections-links-2 .links-2 {
+  color: gray;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.sections-links a:hover,
+.sections-links-2 a:hover {
+  color: red;
+}
+
+/* End Sections Links */
+
 .main-story .top-featured .featured-story,
 .main-story .top-featured .top-story{
   margin-top: 20px;
@@ -293,7 +333,7 @@
   font-size: 12px;
 }
 
-/* Start Style News Card */
+/* Start Style Articles */
 
 .news-articles .news-card-3 p {
   font-weight: 800;
@@ -304,4 +344,335 @@
   margin-left: 40px;
   font-weight: 800;
   color: red;
+}
+
+/* Debate styling */
+.top-stories-header{
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    color: rgba(3,3,3,.4);}
+.debate {
+  margin-bottom: 30px;
+}
+
+.top-debate {
+  border-top: 4px solid rgb(217, 217, 217);
+  padding-top: 10px;
+}
+
+.mugshot-wrapper {
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+}
+
+.mugshot {
+  max-width: 100%;
+}
+
+.debate-stand {
+  color: black;
+  font: bold 16px/19px "Roboto Condensed",sans-serif;
+}
+
+.debater {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.debater span {
+  font-weight: 400;
+}
+
+.debate-info-top {
+  padding-left: 15px;
+}
+
+.vs-img {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 32px;
+  z-index: 3;
+}
+
+.versus {
+  position: relative;
+}
+
+.versus::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px)
+}
+
+.versus::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%
+}
+
+.bottom-debate {
+  border-bottom: 4px solid rgb(217, 217, 217);
+  padding-bottom: 10px;
+}
+
+.debate-info-bottom {
+  padding-right: 0px;
+}
+
+/*opinion style*/
+
+.opinions {
+  margin-bottom: 30px;
+}
+
+.opinion {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.opinion:nth-child(2) {
+  padding-top: 0;
+  border: none;
+}
+
+.opinion-info {
+  padding-left: 15px;
+}
+
+.opinion-stand {
+  font: bold 16px/19px "Roboto Condensed",sans-serif;
+    color: black;
+}
+
+.opinion-author {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.right-column .featured-story {
+  max-width: 336px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* suscribe section */
+.subscribe-block {
+  padding-top: 40px;
+  border-top: 1px solid rgb(217, 217, 217);
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.subscribe-title {
+  color: #f72210;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.subscribe-article {
+  background-color: #f4f5f6;
+  padding: 30px;
+}
+
+.subscribe-img {
+  position: relative;
+  padding-right: 90px;
+}
+
+.previous-subscribe-img {
+  position: relative;
+}
+
+.current-subscribe-img {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.subscribe-info {
+  padding-left: 30px;
+}
+
+.subscribe-header {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 30px;
+  font-family: "Roboto Condensed",sans-serif;
+}
+
+.subscribe-text {
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 20px;
+  
+}
+
+.subscribe-btn-2 {
+  background-color: #f72310;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  border: none;
+  padding: 10px 10px 10px 12px;
+  line-height: 18px;
+  white-space: nowrap;
+  margin-top: 15px;
+}
+
+.newsletter-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  width: 48%;
+}
+
+.newsletter-info {
+  padding: 30px;
+  border: 1px solid rgb(235, 235, 235);
+  width: 52%;
+}
+
+.form-text{
+  color: #555;
+  font-size: 15px;
+  font-family: "Helvetica",sans-serf;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+  padding: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe-article {
+      text-align: center;
+  }
+
+  .subscribe-img {
+      padding-bottom: 30px;
+  }
+
+  .newsletter-article {
+      flex-direction: column;
+  }
+
+  .newsletter-img {
+   height: 170px;
+   width: 100%;
+  }
+
+  .newsletter-info {
+   width: 100%;
+   text-align: center;
+  }
+
+  .subscribe-info {
+   padding: 0;
+  }
+  .form-text{
+   align-items: center;
+   display: flex;
+  }
+}
+
+/* footer style */
+.page-footer {
+  padding: 30px;
+  border-top: 1px solid rgb(217, 217, 217);
+  color: #666;
+}
+
+.top-page-footer {
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.footer-logo {
+  fill: #f72210;
+  height: 36px;
+  width: 236px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  color: #666;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social {
+  margin-bottom: 12px;
+  list-style: none; 
+  padding: 0 ;
+  font-size: 26px ;
+}
+
+.social ul li{
+  margin: 10px;
+  color: #666;
+}
+
+.grayiconcolor{
+  color: #666;
+  margin-right: 15px ;
+  font-size: 22px;
+}
+
+.footer-links-wrapper {
+  padding-top: 6px;
+}
+
+.footer-links {
+  font-size: 15px;
+  line-height: 15px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-links p {
+  font-weight: 700;
+  margin-right: 15px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.footer-links ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer-links ul li {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid rgb(217, 217, 217);
+  white-space: nowrap;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  list-style: none;
+}
+
+.page-footer {
+  padding: 15px;
 }
