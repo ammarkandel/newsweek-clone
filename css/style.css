@@ -60,6 +60,12 @@
 
 /* Start Section Links */
 
+.right-column .featured-story {
+  max-width: 336px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .sections-links a {
   text-decoration: none;
   color: black;
@@ -101,12 +107,43 @@
   text-align: center;
 }
 
+.editor-pick-img a {
+  text-decoration: none;
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 140px;
+  color: red;
+  font-weight: 800;
+  text-align: center;
+}
+
 .sections-links a:hover,
 .sections-links-2 a:hover {
   color: red;
 }
 
 /* End Sections Links */
+
+.editor-pick-card h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+}
+
+.editor-pick-card h4 {
+  font-weight: 800;
+  font-size: 19px;
+  margin: 10px 0 10px 0;
+}
+
+.editor-pick-card h6 {
+  font-size: 12px;
+}
+
+.news-articles h4 {
+  margin-left: 40px;
+  font-weight: 800;
+  color: red;
+}
 
 .main-story .top-featured .featured-story,
 .main-story .top-featured .top-story {
@@ -126,6 +163,26 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
+}
+
+.in-the-magazine .magazine-article h6 {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  font-weight: 800;
+}
+
+.myturn h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+  margin: 12px;
+}
+
+.sponsored h4 {
+  font-size: 19px;
+  font-weight: 800;
+  margin-top: 10px;
 }
 
 .main-story .featured-story h4,
@@ -161,12 +218,6 @@
   color: rgb(0, 131, 238);
   font-weight: 800;
   text-align: center;
-}
-
-.sponsored h4 {
-  font-size: 19px;
-  font-weight: 800;
-  margin-top: 10px;
 }
 
 .sponsored h6 {
@@ -224,13 +275,6 @@
   margin-top: 20px;
 }
 
-.myturn h5 {
-  font-size: 16px;
-  font-weight: 800;
-  color: gray;
-  margin: 12px;
-}
-
 .myturn .myturn-img {
   background-image: url("../images/COVID-19.webp");
   background-size: cover;
@@ -282,13 +326,6 @@
   font-weight: 800;
 }
 
-.in-the-magazine .magazine-article h6 {
-  background-color: red;
-  padding: 5px;
-  color: white;
-  font-weight: 800;
-}
-
 .in-the-magazine .magazine-article h5 {
   font-weight: 800;
 }
@@ -308,31 +345,6 @@
   height: 300px;
 }
 
-.editor-pick-img a {
-  text-decoration: none;
-  background-color: rgb(228, 217, 217, 0.9);
-  width: 140px;
-  color: red;
-  font-weight: 800;
-  text-align: center;
-}
-
-.editor-pick-card h5 {
-  font-size: 16px;
-  font-weight: 800;
-  color: gray;
-}
-
-.editor-pick-card h4 {
-  font-weight: 800;
-  font-size: 19px;
-  margin: 10px 0 10px 0;
-}
-
-.editor-pick-card h6 {
-  font-size: 12px;
-}
-
 /* Start Style Articles */
 
 .news-articles .news-card-3 p {
@@ -340,20 +352,14 @@
   font-size: 14px;
 }
 
-.news-articles h4 {
-  margin-left: 40px;
-  font-weight: 800;
-  color: red;
-}
-
 /* Debate styling */
 
 .top-stories-header {
-  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   padding-bottom: 11px;
-  color: rgba(3,3,3,.4);
-  }
+  color: rgba(3, 3, 3, 0.4);
+}
 
 .debate {
   margin-bottom: 30px;
@@ -376,7 +382,7 @@
 
 .debate-stand {
   color: black;
-  font: bold 16px/19px "Roboto Condensed",sans-serif;
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
 }
 
 .debater {
@@ -464,19 +470,13 @@
 
 .opinion-stand {
   font: bold 16px/19px "Roboto Condensed",sans-serif;
-    color: black;
+  color: black;
 }
 
 .opinion-author {
-  color: #555555;
+  color: #555;
   font-size: 14px;
   font-weight: 700;
-}
-
-.right-column .featured-story {
-  max-width: 336px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* suscribe section */
@@ -528,9 +528,8 @@
 
 .subscribe-text {
   font-size: 15px;
-  color: #333333;
+  color: #333;
   margin-bottom: 20px;
-  
 }
 
 .subscribe-btn-2 {
@@ -567,34 +566,35 @@
 
 @media screen and (max-width: 767px) {
   .subscribe-article {
-      text-align: center;
+    text-align: center;
   }
 
   .subscribe-img {
-      padding-bottom: 30px;
+    padding-bottom: 30px;
   }
 
   .newsletter-article {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .newsletter-img {
-   height: 170px;
-   width: 100%;
+    height: 170px;
+    width: 100%;
   }
 
   .newsletter-info {
-   width: 100%;
-   text-align: center;
+    width: 100%;
+    text-align: center;
   }
 
   .subscribe-info {
-   padding: 0;
+    padding: 0;
   }
+
   .form-text{
-   align-items: center;
-   display: flex;
-   margin: 0%;
+    align-items: center;
+    display: flex;
+    margin: 0%;
   }
 }
 
@@ -628,8 +628,8 @@
 .social {
   margin-bottom: 12px;
   list-style: none; 
-  padding: 0 ;
-  font-size: 26px ;
+  padding: 0;
+  font-size: 26px;
 }
 
 .social ul li {
@@ -639,7 +639,7 @@
 
 .grayiconcolor {
   color: #666;
-  margin-right: 15px ;
+  margin-right: 15px;
   font-size: 22px;
 }
 
