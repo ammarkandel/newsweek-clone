@@ -1,7 +1,6 @@
 
 .navbar {
   background-color: red;
-  height: 115px;
 }
 
 #burger {
@@ -37,13 +36,13 @@
   font-size: 22px;
 }
 
-.col-2 .local-info {
+.navbar .local-info {
   text-decoration: none;
   color: white;
   font-weight: 800;
 }
 
-.col-2 .local-time {
+.navbar .local-time {
   color: white;
   margin-top: 10px;
 }
