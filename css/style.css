@@ -1,6 +1,7 @@
 
 .navbar {
   background-color: red;
+  height: 115px;
 }
 
 #burger {
@@ -46,9 +47,11 @@
   color: white;
   margin-top: 10px;
 }
-main{
+
+main {
   margin: 25px;
 }
+
 @media (min-width: 768px) {
   .nav-icons .login-btn {
     font-size: 17px;
