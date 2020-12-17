@@ -170,16 +170,16 @@ main {
 }
 
 .main-story .featured-story .featured-story-img {
-  height: 15rem;
+  height: 17rem;
 }
 
 .main-story .top-story .top-story-img {
-  height: 340px;
+  height: 380px;
 }
 
 .main-story .featured-story .featured-story-img,
 .main-story .top-story .top-story-img {
-  background: url("../images/COVID-19.webp") center;
+  background: url("https://d.newsweek.com/en/full/1688413/pence-perdue-loeffler-georgia.jpg?w=397&h=265&l=61&t=31&q=90&f=cadf56c5154f1d5a56cf6d9bdada7219") center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -231,10 +231,10 @@ main {
 }
 
 .sponsored .sponsored-img {
-  height: 180px;
-  background-image: url("https://d.newsweek.com/en/full/1661984/university-findlay.jpg?w=500&h=333&f=a0e8c1cc93d0a2e177f8e5757443e339");
+  height: 200px;
+  background: url("https://d.newsweek.com/en/full/1661984/university-findlay.jpg?w=500&h=333&f=a0e8c1cc93d0a2e177f8e5757443e339") center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .sponsored span {
@@ -297,7 +297,7 @@ main {
 }
 
 .myturn .myturn-img {
-  background: url("../images/COVID-19.webp") center;
+  background: url("https://d.newsweek.com/en/full/1688413/pence-perdue-loeffler-georgia.jpg?w=397&h=265&l=61&t=31&q=90&f=cadf56c5154f1d5a56cf6d9bdada7219") center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 350px;
