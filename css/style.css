@@ -1,0 +1,751 @@
+
+.navbar {
+  background-color: red;
+}
+
+#burger {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(190, 190, 192, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-icons .subscribe-btn {
+  font-size: 12px;
+  color: black;
+  background-color: yellow;
+  padding: 6px;
+  border-radius: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0 5px 0 10px;
+}
+
+.nav-icons .login-btn {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+.nav-icons .fa-user {
+  color: rgb(190, 190, 190);
+  font-size: 22px;
+}
+
+.navbar .local-info {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.navbar .local-time {
+  color: white;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .nav-icons .login-btn {
+    font-size: 17px;
+  }
+
+  .nav-icons .subscribe-btn {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-logo {
+    height: 100px;
+    width: 300px;
+  }
+
+  main {
+    margin: 0 25px 0 25px;
+  }
+}
+
+/* End Style Navbar */
+
+/* Start Section Links */
+
+.right-column .featured-story {
+  max-width: 336px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sections-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  border-right: 1px solid rgba(167, 165, 165, 0.8);
+  padding-right: 20px;
+  text-align: center;
+}
+
+.sections-links {
+  margin-top: 20px;
+}
+
+.sections-links-2 {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(172, 171, 171, 0.8);
+}
+
+.sections-links-2 a {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.sections-links-2 .links-2 {
+  color: gray;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.featured-story-img a,
+.top-story-img a {
+  text-decoration: none;
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 140px;
+  color: red;
+  font-weight: 800;
+  text-align: center;
+}
+
+.editor-pick-img a {
+  text-decoration: none;
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 140px;
+  color: red;
+  font-weight: 800;
+  text-align: center;
+}
+
+.sections-links a:hover,
+.sections-links-2 a:hover {
+  color: red;
+}
+
+/* End Sections Links */
+
+.editor-pick-card h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+}
+
+.editor-pick-card h4 {
+  font-weight: 800;
+  font-size: 19px;
+  margin: 10px 0 10px 0;
+}
+
+.editor-pick-card h6 {
+  font-size: 12px;
+}
+
+.news-articles h4 {
+  margin-left: 40px;
+  font-weight: 800;
+  color: red;
+}
+
+.main-story .top-featured .featured-story,
+.main-story .top-featured .top-story {
+  margin-top: 20px;
+}
+
+.myturn h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+  margin: 12px;
+}
+
+.main-story .featured-story h5,
+.main-story .top-story h5 {
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+}
+
+.main-story .featured-story .featured-story-img {
+  height: 17rem;
+}
+
+.main-story .top-story .top-story-img {
+  height: 380px;
+}
+
+.main-story .featured-story .featured-story-img,
+.main-story .top-story .top-story-img {
+  background: url("https://d.newsweek.com/en/full/1688413/pence-perdue-loeffler-georgia.jpg?w=397&h=265&l=61&t=31&q=90&f=cadf56c5154f1d5a56cf6d9bdada7219") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sponsored h4,
+.sponsored h6 {
+  margin-left: 20px;
+}
+
+.sponsored h6 {
+  font-size: 12px;
+}
+
+.in-the-magazine h6 {
+  font-weight: 800;
+}
+
+.in-the-magazine .magazine-article h6 {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  font-weight: 800;
+}
+
+.sponsored h4 {
+  font-size: 19px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.main-story .featured-story h4,
+.main-story .top-story h4 {
+  font-weight: 800;
+  font-size: 19px;
+  margin: 10px 0 10px 0;
+}
+
+.main-story .featured-story h6,
+.main-story .top-story h6 {
+  font-size: 12px;
+}
+
+.main-story .top-featured .featured-story-card {
+  margin-top: 25px;
+}
+
+.sponsored {
+  margin-top: 80px;
+}
+
+.sponsored .sponsored-img {
+  height: 200px;
+  background: url("https://d.newsweek.com/en/full/1661984/university-findlay.jpg?w=500&h=333&f=a0e8c1cc93d0a2e177f8e5757443e339") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sponsored span {
+  background-color: rgb(228, 217, 217, 0.9);
+  width: 200px;
+  color: rgb(0, 131, 238);
+  font-weight: 800;
+  text-align: center;
+}
+
+.sponsored .sponsored-card {
+  padding: 10px;
+  border: 1px solid rgba(184, 181, 181, 0.4);
+  margin-top: 25px;
+}
+
+.more-stories {
+  margin: 40px 10px 10px 10px;
+}
+
+.more-stories .more-stories-title {
+  font-size: 16px;
+  color: gray;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+.more-stories img {
+  margin-right: 15px;
+}
+
+.sponsored .free-signup-card h6 {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.more-stories .more-story h6 {
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.more-stories .more-story h6:hover {
+  text-decoration: underline red;
+}
+
+.more-stories p {
+  font-size: 14px;
+}
+
+.more-story {
+  padding-top: 10px;
+  border-top: 1px solid rgba(184, 184, 184, 0.8);
+}
+
+/* Start Style Myturn Section */
+
+.myturn {
+  margin-top: 20px;
+}
+
+.myturn .myturn-img {
+  background: url("https://d.newsweek.com/en/full/1688413/pence-perdue-loeffler-georgia.jpg?w=397&h=265&l=61&t=31&q=90&f=cadf56c5154f1d5a56cf6d9bdada7219") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.myturn p {
+  color: rgb(109, 107, 107);
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+/* Start Style in THE MAGAZINE */
+
+.in-the-magazine {
+  margin-top: 50px;
+}
+
+.in-the-magazine .icon {
+  background-color: red;
+  background-image: url("https://g.newsweek.com/www/images/logo-n1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25px;
+  width: 25px;
+}
+
+.in-the-magazine .best-moves .move-img {
+  height: 400px;
+  background-image: url("https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=360&h=480&q=90&f=55ffdbf13b7f4c2a334c3f485f76532c");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.in-the-magazine .best-moves .issue {
+  text-decoration: none;
+  color: red;
+  font-weight: 800;
+}
+
+.in-the-magazine .best-moves .features {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.in-the-magazine .magazine-article h5 {
+  font-weight: 800;
+}
+
+.in-the-magazine .magazine-article h4 {
+  font-size: 14px;
+  color: black;
+  font-weight: 800;
+}
+
+/* Start Style The editor-pick */
+
+.editor-pick-card .editor-pick-img {
+  background: url("https://d.newsweek.com/en/full/1685820/alex-azar-speaks-white-house-briefing.jpg?w=397&h=295&f=06b270a71d1cb549fc60de3b07e54959") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* Start Style Articles */
+
+.footer-links p {
+  font-weight: 700;
+  margin-right: 15px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.news-articles .news-card-3 p {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+/* Debate styling */
+
+.top-stories-header {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.debate {
+  margin-bottom: 30px;
+}
+
+.top-debate {
+  border-top: 4px solid rgb(217, 217, 217);
+  padding-top: 10px;
+}
+
+.mugshot-wrapper {
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+}
+
+.mugshot {
+  max-width: 100%;
+}
+
+.debate-stand {
+  color: black;
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+}
+
+.debater {
+  color: #555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.debater span {
+  font-weight: 400;
+}
+
+.debate-info-top {
+  padding-left: 15px;
+}
+
+.vs-img {
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 32px;
+  z-index: 3;
+}
+
+.versus {
+  position: relative;
+}
+
+.versus::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+}
+
+.versus::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.bottom-debate {
+  border-bottom: 4px solid rgb(217, 217, 217);
+  padding-bottom: 10px;
+}
+
+.debate-info-bottom {
+  padding-right: 0;
+}
+
+/* opinion style */
+
+.opinions {
+  margin-bottom: 30px;
+}
+
+.opinion {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.opinion:nth-child(2) {
+  padding-top: 0;
+  border: none;
+}
+
+.opinion-info {
+  padding-left: 15px;
+}
+
+.opinion-stand {
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.opinion-author {
+  color: #555;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* suscribe section */
+
+.subscribe-block {
+  padding-top: 40px;
+  border-top: 1px solid rgb(217, 217, 217);
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.subscribe-title {
+  color: #f72210;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.subscribe-article {
+  background-color: #f4f5f6;
+  padding: 30px;
+}
+
+.subscribe-img {
+  position: relative;
+  padding-right: 90px;
+}
+
+.previous-subscribe-img {
+  position: relative;
+}
+
+.current-subscribe-img {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.subscribe-info {
+  padding-left: 30px;
+}
+
+.subscribe-header {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.subscribe-text {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.subscribe-btn-2 {
+  background-color: #f72310;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  border: none;
+  padding: 10px 10px 10px 12px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.newsletter-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  width: 48%;
+}
+
+.newsletter-info {
+  padding: 30px;
+  border: 1px solid rgb(235, 235, 235);
+  width: 52%;
+}
+
+.form-text {
+  color: #555;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+  padding: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe-article {
+    text-align: center;
+  }
+
+  .subscribe-img {
+    padding-bottom: 30px;
+  }
+
+  .newsletter-article {
+    flex-direction: column;
+  }
+
+  .newsletter-img {
+    height: 170px;
+    width: 100%;
+  }
+
+  .newsletter-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .subscribe-info {
+    padding: 0;
+  }
+
+  .form-text {
+    align-items: center;
+    display: flex;
+    margin: 0%;
+  }
+}
+
+/* footer style */
+.page-footer {
+  padding: 30px;
+  border-top: 1px solid rgb(217, 217, 217);
+  color: #666;
+}
+
+.top-page-footer {
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.footer-logo {
+  fill: #f72210;
+  height: 36px;
+  width: 236px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  color: #666;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social {
+  margin-bottom: 12px;
+  list-style: none;
+  padding: 0;
+  font-size: 26px;
+}
+
+.social ul li {
+  margin: 10px;
+  color: #666;
+}
+
+.grayiconcolor {
+  color: #666;
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+.footer-links-wrapper {
+  padding-top: 6px;
+}
+
+.footer-links {
+  line-height: 15px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-links ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer-links ul li {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid rgb(217, 217, 217);
+  white-space: nowrap;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  list-style: none;
+}
+
+/* Style Sign Card */
+
+.sponsored .free-signup-card {
+  background-color: rgba(180, 176, 176, 0.3);
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.sponsored .free-signup-card span {
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25px;
+  width: 20px;
+}
+
+.sponsored .free-signup-card input {
+  outline: none;
+  border: 1px solid rgba(156, 156, 156, 0.8);
+  padding: 3px;
+}
+
+.sponsored .free-signup-card a {
+  text-decoration: none;
+  font-weight: 800;
+  background-color: red;
+  padding: 10px;
+  color: white;
+  margin-top: 20px;
+  display: block;
+}
+
+/* @media (min-width: 768px) {
+  .sponsored .free-signup-card span {
+    width: 60px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sponsored .free-signup-card span {
+    height: 45px;
+    width: 70px;
+  }
+
+  .sponsored .free-signup-card h6 {
+    font-size: 19px;
+  }
+} */
+
+/* End Style Sign Card */
