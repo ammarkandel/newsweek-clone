@@ -730,22 +730,4 @@
   display: block;
 }
 
-/* @media (min-width: 768px) {
-  .sponsored .free-signup-card span {
-    width: 60px;
-    height: 30px;
-  }
-}
-
-@media (min-width: 992px) {
-  .sponsored .free-signup-card span {
-    height: 45px;
-    width: 70px;
-  }
-
-  .sponsored .free-signup-card h6 {
-    font-size: 19px;
-  }
-} */
-
 /* End Style Sign Card */
